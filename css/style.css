@@ -61,10 +61,25 @@ a {
 
 .jumbotron {
   padding: 3rem 0;
-
-  /* debug */
-  background-color: #00008b;
+  background-image: url(../img/jumbo.png) ;
 }
+
+.col-big-rana {
+  flex-basis: 60%;
+  background-image: url(../img/item1.svg) ;
+}
+
+.col-big-mago {
+  flex-basis: 60%;
+  background-image: url(../img/item2.svg) ;
+}
+
+.col-big-coach {
+  flex-basis: 60%;
+  background-image: url(../img/item3.svg) ;
+}
+
+
 
 .jumbotron .jumbotron__content {
   width: 800px;
