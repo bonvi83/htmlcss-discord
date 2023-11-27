@@ -32,7 +32,7 @@
 }
 
 .header > .container > * {
-  flex-basis: 200px;
+  flex-basis: 80px;
   padding: 10px;
 
   /* debug */
@@ -159,6 +159,14 @@ main > .download > .container {
   background-image: url(../img/stars.svg);
   background-size: contain;
   text-align: center;
+}
+
+.download {
+  background-color: rgb(142, 156, 230);
+  padding: 5px;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  /* bottone da staccare sopra */
 }
 
 /* ## FOOTER */
