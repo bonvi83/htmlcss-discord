@@ -26,7 +26,7 @@
   height: 80px;
 
   /* debug */
-  background-color: #add8e6;
+  background-color: rgb(54	79	232)
 }
 
 .header > .container {
@@ -40,8 +40,17 @@
   padding: 10px;
 
   /* debug */
-  background-color: #d9a41f;
   border: 2px dashed black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__login {
+  color: black;
+  background-color: white;
 }
 
 .header > .container > .header__nav {
