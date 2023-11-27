@@ -178,12 +178,10 @@ main > .download > .container {
 
 .footer .upper-footer > .col-small {
   width: 30%;
-  color: white;
 
   /* debug */
   height: 500px;
-  background-color: #f08080;
-  border: 2px dashed black;
+  border: 2px dashed white;
 }
 
 .footer .upper-footer > .col-big {
@@ -192,18 +190,22 @@ main > .download > .container {
 
   /* debug */
   height: 500px;
-  background-color: #20b2aa;
-  border: 2px dashed black;
+  border: 2px dashed yellow;
 }
 
 .footer .col-big > .w-25 {
-  border: 2px dashed white;
-  color: white;
+  border: 2px dashed white;  
+}
+
+strong {
+color: red;
+  /* color: rgb(142, 156, 230); */
 }
 
 
 ul {
   list-style: none;
+  color: white;
 }
 
 
@@ -214,14 +216,13 @@ ul {
 
   /* debug */
   height: 100px;
-  background-color: #7fffd4;
 }
 
 .bottom-footer > .logo,
 .bottom-footer > .button {
   padding: 5px 10px;
+  color: white;
 
   /* debug */
-  background-color: #fdb5bf;
   border: 2px dashed black;
 }
