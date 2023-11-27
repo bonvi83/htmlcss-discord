@@ -24,9 +24,7 @@
 
 .header {
   height: 80px;
-
-  /* debug */
-  background-color: rgb(54	79	232)
+  background-color: rgb(47	72	242)
 }
 
 .header > .container {
@@ -55,7 +53,7 @@ a {
 
 .header__nav {
   text-align: center;
-  
+
   /* da sistemare non funziona justify */
 }
 
@@ -92,11 +90,12 @@ a {
 
 
 .jumbotron .jumbotron__content {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
+  text-align: center;
+  color: white;
 
   /* debug */
-  background-color: lightgray;
   border: 2px dashed black;
   height: 400px;
 }
@@ -112,7 +111,7 @@ main > section:nth-of-type(odd) {
 }
 
 main > section:nth-of-type(even) {
-  background-color: #d3d3d3;
+  background-color: #e4e3e3;
 }
 
 main > section > .container {
@@ -139,17 +138,11 @@ main > section .col-big {
 
 main > section .col-small {
   flex-basis: 40%;
-
-  /* debug */
-  background-color: #ffc0cb;
 }
 
 main > .download > .container {
   display: block;
 }
-
-
-
 
 .col-tecnologia {
   height: 650px;
@@ -157,8 +150,16 @@ main > .download > .container {
   flex-basis: 60%;
   background-image: url(../img/item4-big.svg);
   background-size: contain;
+  text-align: center;
 }
 
+.domanda {
+  height: 50px;
+  border: 2px dashed black;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  text-align: center;
+}
 
 /* ## FOOTER */
 
@@ -177,6 +178,7 @@ main > .download > .container {
 
 .footer .upper-footer > .col-small {
   width: 30%;
+  color: white;
 
   /* debug */
   height: 500px;
@@ -196,7 +198,14 @@ main > .download > .container {
 
 .footer .col-big > .w-25 {
   border: 2px dashed white;
+  color: white;
 }
+
+
+ul {
+  list-style: none;
+}
+
 
 .footer .bottom-footer {
   display: flex;
