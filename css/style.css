@@ -178,6 +178,7 @@ main > .download > .container {
 
 .footer .upper-footer > .col-small {
   width: 30%;
+  color: white;
 
   /* debug */
   height: 500px;
@@ -199,7 +200,10 @@ main > .download > .container {
 
 strong {
 color: red;
-  /* color: rgb(142, 156, 230); */
+
+/*   da sostituire il rosso con il viola
+color: rgb(142, 156, 230); */
+
 }
 
 
