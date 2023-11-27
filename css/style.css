@@ -53,6 +53,12 @@ a {
   background-color: white;
 }
 
+.header__nav {
+  text-align: center;
+  
+  /* da sistemare non funziona justify */
+}
+
 .header > .container > .header__nav {
   flex-grow: 1;
 }
@@ -61,22 +67,26 @@ a {
 
 .jumbotron {
   padding: 3rem 0;
-  background-image: url(../img/jumbo.png) ;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .col-big-rana {
   flex-basis: 60%;
-  background-image: url(../img/item1.svg) ;
+  background-image: url(../img/item1.svg);
+  background-size: cover;
 }
 
 .col-big-mago {
   flex-basis: 60%;
-  background-image: url(../img/item2.svg) ;
+  background-image: url(../img/item2.svg);
+  background-size: cover;
 }
 
 .col-big-coach {
   flex-basis: 60%;
-  background-image: url(../img/item3.svg) ;
+  background-image: url(../img/item3.svg);
+  background-size: cover;
 }
 
 
@@ -86,7 +96,7 @@ a {
   margin: 0 auto;
 
   /* debug */
-  background-color: #ee82ee;
+  background-color: lightgray;
   border: 2px dashed black;
   height: 400px;
 }
@@ -138,12 +148,17 @@ main > .download > .container {
   display: block;
 }
 
-main > .download .col {
-  /* debug */
-  height: 800px;
-  background-color: #228b22;
+
+
+
+.col-tecnologia {
+  height: 650px;
   border: 2px dashed black;
+  flex-basis: 60%;
+  background-image: url(../img/item4-big.svg);
+  background-size: contain;
 }
+
 
 /* ## FOOTER */
 
