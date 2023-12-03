@@ -34,10 +34,6 @@
 .header > .container > * {
   flex-basis: 80px;
   padding: 10px;
-
-  /* debug */
-
-  border: 2px dashed black;
 }
 
 a {
@@ -97,10 +93,6 @@ a {
   margin: 0 auto;
   text-align: center;
   color: white;
-
-  /* debug */
-  border: 2px dashed black;
-  height: 400px;
 }
 
 /* ## ROWS SECTION */
@@ -127,9 +119,7 @@ main > section:nth-of-type(even) > .container {
 
 main > section .col-big,
 main > section .col-small {
-  /* debug */
   height: 400px;
-  border: 2px dashed black;
 }
 
 main > section .col-big {
@@ -146,7 +136,6 @@ main > .download > .container {
 
 .col-tecnologia {
   height: 650px;
-  border: 2px dashed black;
   flex-basis: 60%;
   background-image: url(../img/item4-big.svg);
   background-size: contain;
@@ -155,7 +144,6 @@ main > .download > .container {
 
 .domanda {
   height: 50px;
-  border: 2px dashed black;
   background-image: url(../img/stars.svg);
   background-size: contain;
   text-align: center;
@@ -187,23 +175,13 @@ main > .download > .container {
 .footer .upper-footer > .col-small {
   width: 30%;
   color: white;
-
-  /* debug */
   height: 500px;
-  border: 2px dashed white;
 }
 
 .footer .upper-footer > .col-big {
   width: 70%;
   display: flex;
-
-  /* debug */
   height: 500px;
-  border: 2px dashed yellow;
-}
-
-.footer .col-big > .w-25 {
-  border: 2px dashed white;  
 }
 
 strong {
@@ -221,8 +199,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* debug */
   height: 100px;
 }
 
